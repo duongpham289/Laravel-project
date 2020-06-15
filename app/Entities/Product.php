@@ -16,7 +16,7 @@ class Product extends Model
 
     protected $guarded = ['id'];
 
-    protected $table = 'products';
+    protected $table = 'product';
 
     protected $perPage = 5;
 
